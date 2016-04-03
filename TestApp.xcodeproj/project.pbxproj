@@ -83,11 +83,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A69B1E21CB11C9400671025 /* MakeLocalizableStrings.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = MakeLocalizableStrings.sh; sourceTree = "<group>"; };
+		1A69B1E51CB11D5F00671025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A69B1E91CB11DAD00671025 /* Info_ios.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_ios.plist; sourceTree = "<group>"; };
 		1A9BB3471A1A9DA900B660A4 /* TestApp-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestApp-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9BB36E1A1A9E6400B660A4 /* TestApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9FEBF71CAC9A9D00303E2B /* Images_ios.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images_ios.xcassets; sourceTree = "<group>"; };
 		1A9FEBF81CAC9A9D00303E2B /* Images_mac.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images_mac.xcassets; sourceTree = "<group>"; };
-		1A9FEBF91CAC9A9D00303E2B /* Info_ios.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_ios.plist; sourceTree = "<group>"; };
 		1A9FEBFA1CAC9A9D00303E2B /* Info_mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_mac.plist; sourceTree = "<group>"; };
 		1A9FEC0B1CAC9B1F00303E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen_ios.xib; sourceTree = "<group>"; };
 		1A9FEC0D1CAC9B1F00303E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_ios.storyboard; sourceTree = "<group>"; };
@@ -222,6 +224,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1A69B1E11CB11C9400671025 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				1A69B1E21CB11C9400671025 /* MakeLocalizableStrings.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
 		1A9BB33E1A1A9DA900B660A4 = {
 			isa = PBXGroup;
 			children = (
@@ -261,10 +271,11 @@
 			children = (
 				1A9FEBF71CAC9A9D00303E2B /* Images_ios.xcassets */,
 				1A9FEBF81CAC9A9D00303E2B /* Images_mac.xcassets */,
-				1A9FEBF91CAC9A9D00303E2B /* Info_ios.plist */,
+				1A69B1E91CB11DAD00671025 /* Info_ios.plist */,
 				1A9FEBFA1CAC9A9D00303E2B /* Info_mac.plist */,
 				1A9FEC0A1CAC9B1F00303E2B /* LaunchScreen_ios.xib */,
 				1AE301B31CB080C1003994A3 /* LICENSE.markdown */,
+				1A69B1E41CB11D5F00671025 /* Localizable.strings */,
 				1A9FEC0C1CAC9B1F00303E2B /* Main_ios.storyboard */,
 				1A9FEC0E1CAC9B1F00303E2B /* Main_mac.storyboard */,
 				1AE301B41CB080C1003994A3 /* README.markdown */,
@@ -367,6 +378,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE301931CB077E7003994A3 /* Configuration */,
+				1A69B1E11CB11C9400671025 /* Scripts */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -415,6 +427,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A9BB38E1A1A9E6400B660A4 /* Build configuration list for PBXNativeTarget "TestApp-iOS" */;
 			buildPhases = (
+				1A69B1EB1CB11E2E00671025 /* ShellScript */,
 				1A9BB36A1A1A9E6400B660A4 /* Sources */,
 				1A9BB36B1A1A9E6400B660A4 /* Frameworks */,
 				1A9BB36C1A1A9E6400B660A4 /* Resources */,
@@ -608,6 +621,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A69B1EB1CB11E2E00671025 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Shared/Scripts/MakeLocalizableStrings.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A9BB3431A1A9DA900B660A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -706,6 +735,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1A69B1E41CB11D5F00671025 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A69B1E51CB11D5F00671025 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		1A9FEC0A1CAC9B1F00303E2B /* LaunchScreen_ios.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
