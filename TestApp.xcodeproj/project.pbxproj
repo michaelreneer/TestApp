@@ -220,7 +220,7 @@
 				1AE301AD1CB07E6D003994A3 /* UIKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		1A9BB33E1A1A9DA900B660A4 = {
 			isa = PBXGroup;
@@ -245,7 +245,7 @@
 				1AD983FE1CAD652E00AB6979 /* TestAppUITests-Mac.xctest */,
 			);
 			name = Products;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		1A9BB3491A1A9DA900B660A4 /* TestApp */ = {
 			isa = PBXGroup;
@@ -254,7 +254,7 @@
 				1A9FEC601CAC9B5C00303E2B /* Source */,
 			);
 			path = TestApp;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		1A9FEC141CAC9B3A00303E2B /* Resources */ = {
 			isa = PBXGroup;
@@ -320,7 +320,7 @@
 				1A9FED771CACAB9600303E2B /* Source */,
 			);
 			path = TestAppUnitTests;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		1A9FED761CACAB9000303E2B /* Resources */ = {
 			isa = PBXGroup;
@@ -345,7 +345,7 @@
 				1AD9840B1CAD660300AB6979 /* Source */,
 			);
 			path = TestAppUITests;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		1AD9840A1CAD65FA00AB6979 /* Resources */ = {
 			isa = PBXGroup;
@@ -369,7 +369,7 @@
 				1AE301931CB077E7003994A3 /* Configuration */,
 			);
 			path = Shared;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		1AE301931CB077E7003994A3 /* Configuration */ = {
 			isa = PBXGroup;
