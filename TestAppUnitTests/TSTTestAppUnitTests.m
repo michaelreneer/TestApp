@@ -1,5 +1,5 @@
 //
-//  TestAppUnitTests.m
+//  TSTTestAppUnitTests.m
 //  TestAppUnitTests
 //
 //  Created by Michael Reneer on 3/30/16.
@@ -10,10 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestAppUnitTests : XCTestCase
+@interface TSTTestAppUnitTests : XCTestCase
 @end
 
-@implementation TestAppUnitTests
+@implementation TSTTestAppUnitTests
 
 - (void)setUp {
     [super setUp];
