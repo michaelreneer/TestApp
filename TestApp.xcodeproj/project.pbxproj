@@ -509,7 +509,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TST;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Michael Reneer";
 				TargetAttributes = {
 					1A9BB3461A1A9DA900B660A4 = {

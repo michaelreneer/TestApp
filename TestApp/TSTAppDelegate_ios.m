@@ -10,7 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@implementation TSTAppDelegate
+@implementation TSTAppDelegate {
+	UIWindow *_window;
+}
+
+@synthesize window = _window;
+
 @end
 
 NS_ASSUME_NONNULL_END
