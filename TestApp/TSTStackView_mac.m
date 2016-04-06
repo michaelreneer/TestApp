@@ -59,7 +59,7 @@ static void TSTStackViewInit(TSTStackView *self) {
 	return self;
 }
 
-#pragma mark - 
+#pragma mark - View
 
 - (NSButton *)button1 {
 	if (_button1 == nil) {
