@@ -16,11 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 @implementation TSTTestAppUnitTests
 
 - (void)setUp {
-    [super setUp];
+	[super setUp];
 }
 
 - (void)tearDown {
-    [super tearDown];
+	[super tearDown];
 }
 
 - (void)testExample {

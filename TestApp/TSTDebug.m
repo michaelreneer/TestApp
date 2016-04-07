@@ -6,10 +6,8 @@
 //  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
-#include <mach/mach_time.h>
-#include <stdio.h>
 #import "TSTDebug.h"
-
+#include <mach/mach_time.h>
 
 void TSTDebugPrintPerformanceMetrics(uint64_t start_time, uint64_t end_time) {
 	static mach_timebase_info_data_t info;

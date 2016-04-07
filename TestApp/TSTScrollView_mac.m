@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 static void TSTScrollViewInit(TSTScrollView *self) {
 	[self setWantsLayer:YES];
-	
+
 	[self setLayerContentsRedrawPolicy:NSViewLayerContentsRedrawOnSetNeedsDisplay];
 }
 

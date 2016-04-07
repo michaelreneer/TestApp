@@ -16,15 +16,15 @@ NS_ASSUME_NONNULL_BEGIN
 @implementation TSTTestAppUITests
 
 - (void)setUp {
-    [super setUp];
+	[super setUp];
 
-    [self setContinueAfterFailure:NO];
+	[self setContinueAfterFailure:NO];
 
-    [[[XCUIApplication alloc] init] launch];
+	[[[XCUIApplication alloc] init] launch];
 }
 
 - (void)tearDown {
-    [super tearDown];
+	[super tearDown];
 }
 
 - (void)testExample {

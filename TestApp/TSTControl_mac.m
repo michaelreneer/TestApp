@@ -6,8 +6,8 @@
 //  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
-#import "TSTActionCell_mac.h"
 #import "TSTControl_mac.h"
+#import "TSTActionCell_mac.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -41,7 +41,7 @@ static void TSTControlInit(TSTControl *self) {
 	return self;
 }
 
-#pragma mark - Display 
+#pragma mark - Display
 
 - (void)drawRect:(NSRect)dirtyRect {
 	[super drawRect:dirtyRect];

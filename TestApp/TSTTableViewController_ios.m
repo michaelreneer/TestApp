@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @implementation TSTTableViewController
 
-#pragma mark - Lifecycle 
+#pragma mark - Lifecycle
 
 static void TSTTableViewControllerInit(TSTTableViewController *self) {
 }
@@ -27,7 +27,7 @@ static void TSTTableViewControllerInit(TSTTableViewController *self) {
 	return self;
 }
 
-- (instancetype)initWithNibName:(nullable NSString *)nibNameOrNil bundle:(nullable NSBundle *)nibBundleOrNil  {
+- (instancetype)initWithNibName:(nullable NSString *)nibNameOrNil bundle:(nullable NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 
 	if (self != nil) {

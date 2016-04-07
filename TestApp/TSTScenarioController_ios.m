@@ -6,9 +6,9 @@
 //  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
-#import <QuartzCore/QuartzCore.h>
-#import "TSTLayer.h"
 #import "TSTScenarioController_ios.h"
+#import "TSTLayer.h"
+#import <QuartzCore/QuartzCore.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 	[self shrinkLayer:layer1];
 }
 
-#pragma mark - 
+#pragma mark -
 
 - (void)shrinkLayer:(CALayer *)layer {
 	CGRect frame = [layer frame];

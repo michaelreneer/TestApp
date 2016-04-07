@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 	NSButton *_button4;
 }
 
-#pragma mark - Lifecycle 
+#pragma mark - Lifecycle
 
 static void TSTStackViewInit(TSTStackView *self) {
 	[self setWantsLayer:YES];
