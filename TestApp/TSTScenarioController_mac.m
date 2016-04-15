@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 	[view addSubview:scrollView];
 
 	[scrollView setTranslatesAutoresizingMaskIntoConstraints:NO];
-	NSDictionary *views = NSDictionaryOfVariableBindings(scrollView);
+	NSDictionary<NSString *, id> *views = NSDictionaryOfVariableBindings(scrollView);
 	[view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[scrollView]|" options:0 metrics:nil views:views]];
 	[view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[scrollView]|" options:0 metrics:nil views:views]];
 
