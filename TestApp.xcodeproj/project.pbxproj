@@ -795,7 +795,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301951CB077E7003994A3 /* Application-OSX.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestApp/Info_mac.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-OSX";
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -806,7 +805,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301951CB077E7003994A3 /* Application-OSX.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestApp/Info_mac.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-OSX";
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -817,8 +815,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301941CB077E7003994A3 /* Application-iOS.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = TestApp/Info_ios.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-iOS";
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -829,8 +825,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301941CB077E7003994A3 /* Application-iOS.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = TestApp/Info_ios.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-iOS";
 				PRODUCT_NAME = "${TARGET_NAME}";
