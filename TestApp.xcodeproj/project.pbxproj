@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A16C19F1CCA6EF4003BD396 /* find-clang-format in Resources */ = {isa = PBXBuildFile; fileRef = 1A16C19D1CCA6EF4003BD396 /* find-clang-format */; };
+		1A16C1A01CCA6EF4003BD396 /* find-genstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1A16C19E1CCA6EF4003BD396 /* find-genstrings */; };
 		1A8308A91CB5C9F000E98A89 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8308A81CB5C9F000E98A89 /* AppKit.framework */; };
 		1A8308AB1CB5C9FF00E98A89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8308AA1CB5C9FF00E98A89 /* QuartzCore.framework */; };
 		1A9FEBFB1CAC9A9D00303E2B /* Assets_ios.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FEBF71CAC9A9D00303E2B /* Assets_ios.xcassets */; };
@@ -75,7 +77,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A69B1E21CB11C9400671025 /* MakeLocalizableStrings.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = MakeLocalizableStrings.sh; sourceTree = "<group>"; };
+		1A16C19D1CCA6EF4003BD396 /* find-clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-clang-format"; sourceTree = "<group>"; };
+		1A16C19E1CCA6EF4003BD396 /* find-genstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-genstrings"; sourceTree = "<group>"; };
 		1A69B1E51CB11D5F00671025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1A69B1E91CB11DAD00671025 /* Info_ios.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_ios.plist; sourceTree = "<group>"; };
 		1A8308A81CB5C9F000E98A89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -221,7 +224,8 @@
 		1A69B1E11CB11C9400671025 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				1A69B1E21CB11C9400671025 /* MakeLocalizableStrings.sh */,
+				1A16C19D1CCA6EF4003BD396 /* find-clang-format */,
+				1A16C19E1CCA6EF4003BD396 /* find-genstrings */,
 			);
 			path = Scripts;
 			sourceTree = "<group>";
@@ -582,7 +586,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9FEBFB1CAC9A9D00303E2B /* Assets_ios.xcassets in Resources */,
+				1A16C1A01CCA6EF4003BD396 /* find-genstrings in Resources */,
 				1ADA6B581CB38FB000B39C33 /* LaunchScreen.storyboard in Resources */,
+				1A16C19F1CCA6EF4003BD396 /* find-clang-format in Resources */,
 				1A9FEC111CAC9B1F00303E2B /* Main_ios.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
