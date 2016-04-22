@@ -629,7 +629,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "Shared/Scripts/MakeLocalizableStrings.sh\n";
+			shellScript = "Shared/Scripts/find-genstrings\n";
 		};
 		1ACB3A091CB19838000200A8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -642,7 +642,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "Shared/Scripts/MakeLocalizableStrings.sh\n";
+			shellScript = "Shared/Scripts/find-genstrings\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

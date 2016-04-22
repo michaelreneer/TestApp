@@ -1,5 +1,7 @@
 ## TestApp
 
+An iOS application that helps in tracking and comparing one arbitrary set of data to another.
+
 #### Dependencies
 
 - [Shared][]
