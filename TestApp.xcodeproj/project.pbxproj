@@ -83,7 +83,7 @@
 		1A69B1E91CB11DAD00671025 /* Info_ios.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_ios.plist; sourceTree = "<group>"; };
 		1A8308A81CB5C9F000E98A89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1A8308AA1CB5C9FF00E98A89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		1A9BB3471A1A9DA900B660A4 /* TestApp-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestApp-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9BB3471A1A9DA900B660A4 /* TestApp-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestApp-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9BB36E1A1A9E6400B660A4 /* TestApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9FEBF71CAC9A9D00303E2B /* Assets_ios.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_ios.xcassets; sourceTree = "<group>"; };
 		1A9FEBF81CAC9A9D00303E2B /* Assets_mac.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_mac.xcassets; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		1A9FEC431CAC9B5400303E2B /* TSTView_mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTView_mac.m; sourceTree = "<group>"; };
 		1A9FEC441CAC9B5400303E2B /* TSTViewController_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTViewController_mac.h; sourceTree = "<group>"; };
 		1A9FEC451CAC9B5400303E2B /* TSTViewController_mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTViewController_mac.m; sourceTree = "<group>"; };
-		1A9FED5A1CACAA9D00303E2B /* TestAppUnitTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppUnitTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9FED5A1CACAA9D00303E2B /* TestAppUnitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppUnitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9FED681CACAAC100303E2B /* TestAppUnitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppUnitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9FED741CACAB8300303E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9FED751CACAB8300303E2B /* TSTTestAppUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTTestAppUnitTests.m; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		1AD983F01CAD652000AB6979 /* TestAppUITests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppUITests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD983F21CAD652000AB6979 /* TSTTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTTestAppUITests.m; sourceTree = "<group>"; };
 		1AD983F41CAD652000AB6979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AD983FE1CAD652E00AB6979 /* TestAppUITests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppUITests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD983FE1CAD652E00AB6979 /* TestAppUITests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppUITests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADA6B571CB38FB000B39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ADA6B8D1CB393DC00B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		1ADA6B8F1CB393DF00B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_ios.strings; sourceTree = "<group>"; };
@@ -142,18 +142,18 @@
 		1ADA6BCC1CB39A1000B39C33 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		1ADA6BCE1CB39A2100B39C33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		1AE301941CB077E7003994A3 /* Application-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Application-iOS.xcconfig"; sourceTree = "<group>"; };
-		1AE301951CB077E7003994A3 /* Application-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Application-OSX.xcconfig"; sourceTree = "<group>"; };
+		1AE301951CB077E7003994A3 /* Application-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Application-macOS.xcconfig"; sourceTree = "<group>"; };
 		1AE301961CB077E7003994A3 /* Framework-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-iOS.xcconfig"; sourceTree = "<group>"; };
-		1AE301971CB077E7003994A3 /* Framework-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-OSX.xcconfig"; sourceTree = "<group>"; };
+		1AE301971CB077E7003994A3 /* Framework-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-macOS.xcconfig"; sourceTree = "<group>"; };
 		1AE301981CB077E7003994A3 /* Library-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Library-iOS.xcconfig"; sourceTree = "<group>"; };
-		1AE301991CB077E7003994A3 /* Library-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Library-OSX.xcconfig"; sourceTree = "<group>"; };
+		1AE301991CB077E7003994A3 /* Library-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Library-macOS.xcconfig"; sourceTree = "<group>"; };
 		1AE3019A1CB077E7003994A3 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
 		1AE3019B1CB077E7003994A3 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
 		1AE3019C1CB077E7003994A3 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		1AE3019D1CB077E7003994A3 /* Target-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-iOS.xcconfig"; sourceTree = "<group>"; };
-		1AE3019E1CB077E7003994A3 /* Target-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-OSX.xcconfig"; sourceTree = "<group>"; };
+		1AE3019E1CB077E7003994A3 /* Target-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-macOS.xcconfig"; sourceTree = "<group>"; };
 		1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-iOS.xcconfig"; sourceTree = "<group>"; };
-		1AE301A01CB077E7003994A3 /* Test-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-OSX.xcconfig"; sourceTree = "<group>"; };
+		1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-macOS.xcconfig"; sourceTree = "<group>"; };
 		1AE301B31CB080C1003994A3 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = SOURCE_ROOT; };
 		1AE301B41CB080C1003994A3 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -245,12 +245,12 @@
 		1A9BB3481A1A9DA900B660A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A9BB3471A1A9DA900B660A4 /* TestApp-OSX.app */,
 				1A9BB36E1A1A9E6400B660A4 /* TestApp-iOS.app */,
+				1A9BB3471A1A9DA900B660A4 /* TestApp-macOS.app */,
 				1AD983F01CAD652000AB6979 /* TestAppUITests-iOS.xctest */,
-				1AD983FE1CAD652E00AB6979 /* TestAppUITests-OSX.xctest */,
-				1A9FED5A1CACAA9D00303E2B /* TestAppUnitTests-OSX.xctest */,
+				1AD983FE1CAD652E00AB6979 /* TestAppUITests-macOS.xctest */,
 				1A9FED681CACAAC100303E2B /* TestAppUnitTests-iOS.xctest */,
+				1A9FED5A1CACAA9D00303E2B /* TestAppUnitTests-macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -387,18 +387,18 @@
 			isa = PBXGroup;
 			children = (
 				1AE301941CB077E7003994A3 /* Application-iOS.xcconfig */,
-				1AE301951CB077E7003994A3 /* Application-OSX.xcconfig */,
+				1AE301951CB077E7003994A3 /* Application-macOS.xcconfig */,
 				1AE301961CB077E7003994A3 /* Framework-iOS.xcconfig */,
-				1AE301971CB077E7003994A3 /* Framework-OSX.xcconfig */,
+				1AE301971CB077E7003994A3 /* Framework-macOS.xcconfig */,
 				1AE301981CB077E7003994A3 /* Library-iOS.xcconfig */,
-				1AE301991CB077E7003994A3 /* Library-OSX.xcconfig */,
+				1AE301991CB077E7003994A3 /* Library-macOS.xcconfig */,
 				1AE3019A1CB077E7003994A3 /* Project-Debug.xcconfig */,
 				1AE3019B1CB077E7003994A3 /* Project-Release.xcconfig */,
 				1AE3019C1CB077E7003994A3 /* Project.xcconfig */,
 				1AE3019D1CB077E7003994A3 /* Target-iOS.xcconfig */,
-				1AE3019E1CB077E7003994A3 /* Target-OSX.xcconfig */,
+				1AE3019E1CB077E7003994A3 /* Target-macOS.xcconfig */,
 				1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */,
-				1AE301A01CB077E7003994A3 /* Test-OSX.xcconfig */,
+				1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -406,9 +406,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A9BB3461A1A9DA900B660A4 /* TestApp-OSX */ = {
+		1A9BB3461A1A9DA900B660A4 /* TestApp-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A9BB3641A1A9DA900B660A4 /* Build configuration list for PBXNativeTarget "TestApp-OSX" */;
+			buildConfigurationList = 1A9BB3641A1A9DA900B660A4 /* Build configuration list for PBXNativeTarget "TestApp-macOS" */;
 			buildPhases = (
 				1ACB3A091CB19838000200A8 /* ShellScript */,
 				1A9BB3431A1A9DA900B660A4 /* Sources */,
@@ -419,9 +419,9 @@
 			);
 			dependencies = (
 			);
-			name = "TestApp-OSX";
-			productName = "TestApp-OSX";
-			productReference = 1A9BB3471A1A9DA900B660A4 /* TestApp-OSX.app */;
+			name = "TestApp-macOS";
+			productName = "TestApp-macOS";
+			productReference = 1A9BB3471A1A9DA900B660A4 /* TestApp-macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1A9BB36D1A1A9E6400B660A4 /* TestApp-iOS */ = {
@@ -442,9 +442,9 @@
 			productReference = 1A9BB36E1A1A9E6400B660A4 /* TestApp-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A9FED591CACAA9D00303E2B /* TestAppUnitTests-OSX */ = {
+		1A9FED591CACAA9D00303E2B /* TestAppUnitTests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A9FED611CACAA9D00303E2B /* Build configuration list for PBXNativeTarget "TestAppUnitTests-OSX" */;
+			buildConfigurationList = 1A9FED611CACAA9D00303E2B /* Build configuration list for PBXNativeTarget "TestAppUnitTests-macOS" */;
 			buildPhases = (
 				1A9FED561CACAA9D00303E2B /* Sources */,
 				1A9FED571CACAA9D00303E2B /* Frameworks */,
@@ -455,9 +455,9 @@
 			dependencies = (
 				1A9FED601CACAA9D00303E2B /* PBXTargetDependency */,
 			);
-			name = "TestAppUnitTests-OSX";
-			productName = "TestAppUnitTests-OSX";
-			productReference = 1A9FED5A1CACAA9D00303E2B /* TestAppUnitTests-OSX.xctest */;
+			name = "TestAppUnitTests-macOS";
+			productName = "TestAppUnitTests-macOS";
+			productReference = 1A9FED5A1CACAA9D00303E2B /* TestAppUnitTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		1A9FED671CACAAC100303E2B /* TestAppUnitTests-iOS */ = {
@@ -496,9 +496,9 @@
 			productReference = 1AD983F01CAD652000AB6979 /* TestAppUITests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		1AD983FD1CAD652E00AB6979 /* TestAppUITests-OSX */ = {
+		1AD983FD1CAD652E00AB6979 /* TestAppUITests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AD984051CAD652E00AB6979 /* Build configuration list for PBXNativeTarget "TestAppUITests-OSX" */;
+			buildConfigurationList = 1AD984051CAD652E00AB6979 /* Build configuration list for PBXNativeTarget "TestAppUITests-macOS" */;
 			buildPhases = (
 				1AD983FA1CAD652E00AB6979 /* Sources */,
 				1AD983FB1CAD652E00AB6979 /* Frameworks */,
@@ -509,9 +509,9 @@
 			dependencies = (
 				1AD984041CAD652E00AB6979 /* PBXTargetDependency */,
 			);
-			name = "TestAppUITests-OSX";
-			productName = "TestAppUITests-OSX";
-			productReference = 1AD983FE1CAD652E00AB6979 /* TestAppUITests-OSX.xctest */;
+			name = "TestAppUITests-macOS";
+			productName = "TestAppUITests-macOS";
+			productReference = 1AD983FE1CAD652E00AB6979 /* TestAppUITests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -526,7 +526,6 @@
 				TargetAttributes = {
 					1A9BB3461A1A9DA900B660A4 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 75S8L5LRS8;
 					};
 					1A9BB36D1A1A9E6400B660A4 = {
 						CreatedOnToolsVersion = 6.0;
@@ -563,11 +562,11 @@
 			projectRoot = "";
 			targets = (
 				1A9BB36D1A1A9E6400B660A4 /* TestApp-iOS */,
-				1A9BB3461A1A9DA900B660A4 /* TestApp-OSX */,
+				1A9BB3461A1A9DA900B660A4 /* TestApp-macOS */,
 				1AD983EF1CAD652000AB6979 /* TestAppUITests-iOS */,
-				1AD983FD1CAD652E00AB6979 /* TestAppUITests-OSX */,
+				1AD983FD1CAD652E00AB6979 /* TestAppUITests-macOS */,
 				1A9FED671CACAAC100303E2B /* TestAppUnitTests-iOS */,
-				1A9FED591CACAA9D00303E2B /* TestAppUnitTests-OSX */,
+				1A9FED591CACAA9D00303E2B /* TestAppUnitTests-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -725,7 +724,7 @@
 /* Begin PBXTargetDependency section */
 		1A9FED601CACAA9D00303E2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A9BB3461A1A9DA900B660A4 /* TestApp-OSX */;
+			target = 1A9BB3461A1A9DA900B660A4 /* TestApp-macOS */;
 			targetProxy = 1A9FED5F1CACAA9D00303E2B /* PBXContainerItemProxy */;
 		};
 		1A9FED6E1CACAAC100303E2B /* PBXTargetDependency */ = {
@@ -740,7 +739,7 @@
 		};
 		1AD984041CAD652E00AB6979 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A9BB3461A1A9DA900B660A4 /* TestApp-OSX */;
+			target = 1A9BB3461A1A9DA900B660A4 /* TestApp-macOS */;
 			targetProxy = 1AD984031CAD652E00AB6979 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -800,21 +799,19 @@
 		};
 		1A9BB3651A1A9DA900B660A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE301951CB077E7003994A3 /* Application-OSX.xcconfig */;
+			baseConfigurationReference = 1AE301951CB077E7003994A3 /* Application-macOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestApp/Info_mac.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-OSX";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-macOS";
 			};
 			name = Debug;
 		};
 		1A9BB3661A1A9DA900B660A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE301951CB077E7003994A3 /* Application-OSX.xcconfig */;
+			baseConfigurationReference = 1AE301951CB077E7003994A3 /* Application-macOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestApp/Info_mac.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-OSX";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-macOS";
 			};
 			name = Release;
 		};
@@ -824,7 +821,6 @@
 			buildSettings = {
 				INFOPLIST_FILE = TestApp/Info_ios.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-iOS";
-				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Debug;
 		};
@@ -834,29 +830,26 @@
 			buildSettings = {
 				INFOPLIST_FILE = TestApp/Info_ios.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-iOS";
-				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Release;
 		};
 		1A9FED621CACAA9D00303E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-OSX.xcconfig */;
+			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestAppUnitTests/Info.plist;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-OSX.app/Contents/MacOS/TestApp-OSX";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-macOS.app/Contents/MacOS/TestApp-macOS";
 			};
 			name = Debug;
 		};
 		1A9FED631CACAA9D00303E2B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-OSX.xcconfig */;
+			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestAppUnitTests/Info.plist;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-OSX.app/Contents/MacOS/TestApp-OSX";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-macOS.app/Contents/MacOS/TestApp-macOS";
 			};
 			name = Release;
 		};
@@ -864,9 +857,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestAppUnitTests/Info.plist;
-				PRODUCT_NAME = "${TARGET_NAME}";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-iOS.app/TestApp-iOS";
 			};
 			name = Debug;
@@ -875,9 +866,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestAppUnitTests/Info.plist;
-				PRODUCT_NAME = "${TARGET_NAME}";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-iOS.app/TestApp-iOS";
 			};
 			name = Release;
@@ -887,7 +876,6 @@
 			baseConfigurationReference = 1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
-				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Debug;
 		};
@@ -896,25 +884,22 @@
 			baseConfigurationReference = 1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
-				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Release;
 		};
 		1AD984061CAD652E00AB6979 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-OSX.xcconfig */;
+			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
-				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Debug;
 		};
 		1AD984071CAD652E00AB6979 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-OSX.xcconfig */;
+			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
-				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Release;
 		};
@@ -930,7 +915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A9BB3641A1A9DA900B660A4 /* Build configuration list for PBXNativeTarget "TestApp-OSX" */ = {
+		1A9BB3641A1A9DA900B660A4 /* Build configuration list for PBXNativeTarget "TestApp-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A9BB3651A1A9DA900B660A4 /* Debug */,
@@ -948,7 +933,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A9FED611CACAA9D00303E2B /* Build configuration list for PBXNativeTarget "TestAppUnitTests-OSX" */ = {
+		1A9FED611CACAA9D00303E2B /* Build configuration list for PBXNativeTarget "TestAppUnitTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A9FED621CACAA9D00303E2B /* Debug */,
@@ -975,7 +960,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1AD984051CAD652E00AB6979 /* Build configuration list for PBXNativeTarget "TestAppUITests-OSX" */ = {
+		1AD984051CAD652E00AB6979 /* Build configuration list for PBXNativeTarget "TestAppUITests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AD984061CAD652E00AB6979 /* Debug */,

@@ -40,7 +40,7 @@ static void TSTActionCellInit(TSTActionCell *self) {
 	return self;
 }
 
-- (nullable instancetype)initWithCoder:(NSCoder *)aDecoder {
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
 	self = [super initWithCoder:aDecoder];
 
 	if (self != nil) {
