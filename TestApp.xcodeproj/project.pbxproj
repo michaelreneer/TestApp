@@ -375,7 +375,7 @@
 		1AE301921CB077E7003994A3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1AE301931CB077E7003994A3 /* Configuration */,
+				1AE301931CB077E7003994A3 /* Configurations */,
 				1ACB3A011CB19800000200A8 /* LICENSE.markdown */,
 				1ACB3A021CB19800000200A8 /* README.markdown */,
 				1A69B1E11CB11C9400671025 /* Scripts */,
@@ -383,7 +383,7 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		1AE301931CB077E7003994A3 /* Configuration */ = {
+		1AE301931CB077E7003994A3 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
 				1AE301941CB077E7003994A3 /* Application-iOS.xcconfig */,
@@ -400,7 +400,7 @@
 				1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */,
 				1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */,
 			);
-			path = Configuration;
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -526,24 +526,30 @@
 				TargetAttributes = {
 					1A9BB3461A1A9DA900B660A4 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 75S8L5LRS8;
 					};
 					1A9BB36D1A1A9E6400B660A4 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 75S8L5LRS8;
 					};
 					1A9FED591CACAA9D00303E2B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75S8L5LRS8;
 						TestTargetID = 1A9BB3461A1A9DA900B660A4;
 					};
 					1A9FED671CACAAC100303E2B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75S8L5LRS8;
 						TestTargetID = 1A9BB36D1A1A9E6400B660A4;
 					};
 					1AD983EF1CAD652000AB6979 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75S8L5LRS8;
 						TestTargetID = 1A9BB36D1A1A9E6400B660A4;
 					};
 					1AD983FD1CAD652E00AB6979 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75S8L5LRS8;
 						TestTargetID = 1A9BB3461A1A9DA900B660A4;
 					};
 				};
@@ -801,6 +807,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301951CB077E7003994A3 /* Application-macOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestApp/Info_mac.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-macOS";
 			};
@@ -810,6 +817,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301951CB077E7003994A3 /* Application-macOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestApp/Info_mac.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-macOS";
 			};
@@ -819,6 +827,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301941CB077E7003994A3 /* Application-iOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestApp/Info_ios.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-iOS";
 			};
@@ -828,6 +837,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301941CB077E7003994A3 /* Application-iOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestApp/Info_ios.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestApp-iOS";
 			};
@@ -837,8 +847,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestAppUnitTests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestAppUnitTests-macOS";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-macOS.app/Contents/MacOS/TestApp-macOS";
 			};
 			name = Debug;
@@ -847,8 +858,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestAppUnitTests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestAppUnitTests-macOS";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-macOS.app/Contents/MacOS/TestApp-macOS";
 			};
 			name = Release;
@@ -857,7 +869,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestAppUnitTests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestAppUnitTests-iOS";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-iOS.app/TestApp-iOS";
 			};
 			name = Debug;
@@ -866,7 +880,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestAppUnitTests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestAppUnitTests-iOS";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp-iOS.app/TestApp-iOS";
 			};
 			name = Release;
@@ -875,7 +891,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestAppUITests-iOS";
 			};
 			name = Debug;
 		};
@@ -883,7 +901,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestAppUITests-iOS";
 			};
 			name = Release;
 		};
@@ -891,7 +911,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestAppUITests-macOS";
 			};
 			name = Debug;
 		};
@@ -899,7 +921,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.TestAppUITests-macOS";
 			};
 			name = Release;
 		};
