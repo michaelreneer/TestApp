@@ -37,6 +37,7 @@
 		1A9FED781CACAC4600303E2B /* TSTTestAppUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FED751CACAB8300303E2B /* TSTTestAppUnitTests.m */; };
 		1A9FED791CACAC4700303E2B /* TSTTestAppUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FED751CACAB8300303E2B /* TSTTestAppUnitTests.m */; };
 		1A9FED7C1CACBEDC00303E2B /* TSTViewController_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FED7B1CACBEDC00303E2B /* TSTViewController_ios.m */; };
+		1ACB12551DA2B9DC00E4AEEE /* Tool-macOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB12541DA2B9DC00E4AEEE /* Tool-macOS.xcconfig */; };
 		1AD983F31CAD652000AB6979 /* TSTTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD983F21CAD652000AB6979 /* TSTTestAppUITests.m */; };
 		1AD9840C1CAD668300AB6979 /* TSTTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD983F21CAD652000AB6979 /* TSTTestAppUITests.m */; };
 		1ADA6B581CB38FB000B39C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B561CB38FB000B39C33 /* LaunchScreen.storyboard */; };
@@ -128,6 +129,7 @@
 		1A9FED751CACAB8300303E2B /* TSTTestAppUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTTestAppUnitTests.m; sourceTree = "<group>"; };
 		1A9FED7A1CACBEDC00303E2B /* TSTViewController_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTViewController_ios.h; sourceTree = "<group>"; };
 		1A9FED7B1CACBEDC00303E2B /* TSTViewController_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTViewController_ios.m; sourceTree = "<group>"; };
+		1ACB12541DA2B9DC00E4AEEE /* Tool-macOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Tool-macOS.xcconfig"; sourceTree = "<group>"; };
 		1ACB3A011CB19800000200A8 /* LICENSE.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
 		1ACB3A021CB19800000200A8 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		1AD983F01CAD652000AB6979 /* TestAppUITests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppUITests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -399,6 +401,7 @@
 				1AE3019E1CB077E7003994A3 /* Target-macOS.xcconfig */,
 				1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */,
 				1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */,
+				1ACB12541DA2B9DC00E4AEEE /* Tool-macOS.xcconfig */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -527,29 +530,35 @@
 					1A9BB3461A1A9DA900B660A4 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = 75S8L5LRS8;
+						ProvisioningStyle = Automatic;
 					};
 					1A9BB36D1A1A9E6400B660A4 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = 75S8L5LRS8;
+						ProvisioningStyle = Automatic;
 					};
 					1A9FED591CACAA9D00303E2B = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 75S8L5LRS8;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1A9BB3461A1A9DA900B660A4;
 					};
 					1A9FED671CACAAC100303E2B = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 75S8L5LRS8;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1A9BB36D1A1A9E6400B660A4;
 					};
 					1AD983EF1CAD652000AB6979 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 75S8L5LRS8;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1A9BB36D1A1A9E6400B660A4;
 					};
 					1AD983FD1CAD652E00AB6979 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 75S8L5LRS8;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1A9BB3461A1A9DA900B660A4;
 					};
 				};
@@ -596,6 +605,7 @@
 				1A9FEBFB1CAC9A9D00303E2B /* Assets_ios.xcassets in Resources */,
 				1ADA6B581CB38FB000B39C33 /* LaunchScreen.storyboard in Resources */,
 				1A9FEC111CAC9B1F00303E2B /* Main_ios.storyboard in Resources */,
+				1ACB12551DA2B9DC00E4AEEE /* Tool-macOS.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
