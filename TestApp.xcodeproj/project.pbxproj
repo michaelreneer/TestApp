@@ -156,8 +156,8 @@
 		1AE3019E1CB077E7003994A3 /* Target-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-macOS.xcconfig"; sourceTree = "<group>"; };
 		1AE3019F1CB077E7003994A3 /* Test-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-iOS.xcconfig"; sourceTree = "<group>"; };
 		1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-macOS.xcconfig"; sourceTree = "<group>"; };
-		1AE301B31CB080C1003994A3 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = SOURCE_ROOT; };
-		1AE301B41CB080C1003994A3 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = SOURCE_ROOT; };
+		1AE301B31CB080C1003994A3 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.markdown; path = ../LICENSE.markdown; sourceTree = "<group>"; };
+		1AE301B41CB080C1003994A3 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = ../README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
