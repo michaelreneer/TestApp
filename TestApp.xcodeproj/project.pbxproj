@@ -37,7 +37,6 @@
 		1A9FED781CACAC4600303E2B /* TSTTestAppUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FED751CACAB8300303E2B /* TSTTestAppUnitTests.m */; };
 		1A9FED791CACAC4700303E2B /* TSTTestAppUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FED751CACAB8300303E2B /* TSTTestAppUnitTests.m */; };
 		1A9FED7C1CACBEDC00303E2B /* TSTViewController_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FED7B1CACBEDC00303E2B /* TSTViewController_ios.m */; };
-		1ACB12551DA2B9DC00E4AEEE /* Tool-macOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB12541DA2B9DC00E4AEEE /* Tool-macOS.xcconfig */; };
 		1AD983F31CAD652000AB6979 /* TSTTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD983F21CAD652000AB6979 /* TSTTestAppUITests.m */; };
 		1AD9840C1CAD668300AB6979 /* TSTTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD983F21CAD652000AB6979 /* TSTTestAppUITests.m */; };
 		1ADA6B581CB38FB000B39C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B561CB38FB000B39C33 /* LaunchScreen.storyboard */; };
@@ -78,8 +77,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A16C19D1CCA6EF4003BD396 /* find-clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-clang-format"; sourceTree = "<group>"; };
-		1A16C19E1CCA6EF4003BD396 /* find-genstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-genstrings"; sourceTree = "<group>"; };
 		1A69B1E51CB11D5F00671025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1A69B1E91CB11DAD00671025 /* Info_ios.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_ios.plist; sourceTree = "<group>"; };
 		1A8308A81CB5C9F000E98A89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -130,8 +127,6 @@
 		1A9FED7A1CACBEDC00303E2B /* TSTViewController_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTViewController_ios.h; sourceTree = "<group>"; };
 		1A9FED7B1CACBEDC00303E2B /* TSTViewController_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTViewController_ios.m; sourceTree = "<group>"; };
 		1ACB12541DA2B9DC00E4AEEE /* Tool-macOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Tool-macOS.xcconfig"; sourceTree = "<group>"; };
-		1ACB3A011CB19800000200A8 /* LICENSE.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
-		1ACB3A021CB19800000200A8 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		1AD983F01CAD652000AB6979 /* TestAppUITests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppUITests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD983F21CAD652000AB6979 /* TSTTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTTestAppUITests.m; sourceTree = "<group>"; };
 		1AD983F41CAD652000AB6979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -158,6 +153,8 @@
 		1AE301A01CB077E7003994A3 /* Test-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-macOS.xcconfig"; sourceTree = "<group>"; };
 		1AE301B31CB080C1003994A3 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.markdown; path = ../LICENSE.markdown; sourceTree = "<group>"; };
 		1AE301B41CB080C1003994A3 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = ../README.markdown; sourceTree = "<group>"; };
+		62873F8F20B538DD00C23C59 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		62873F9020B538DD00C23C59 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,15 +218,6 @@
 				1ADA6BCA1CB39A0400B39C33 /* UIKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1A69B1E11CB11C9400671025 /* Scripts */ = {
-			isa = PBXGroup;
-			children = (
-				1A16C19D1CCA6EF4003BD396 /* find-clang-format */,
-				1A16C19E1CCA6EF4003BD396 /* find-genstrings */,
-			);
-			path = Scripts;
 			sourceTree = "<group>";
 		};
 		1A9BB33E1A1A9DA900B660A4 = {
@@ -378,9 +366,8 @@
 			isa = PBXGroup;
 			children = (
 				1AE301931CB077E7003994A3 /* Configurations */,
-				1ACB3A011CB19800000200A8 /* LICENSE.markdown */,
-				1ACB3A021CB19800000200A8 /* README.markdown */,
-				1A69B1E11CB11C9400671025 /* Scripts */,
+				62873F9020B538DD00C23C59 /* LICENSE.md */,
+				62873F8F20B538DD00C23C59 /* README.md */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -413,7 +400,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A9BB3641A1A9DA900B660A4 /* Build configuration list for PBXNativeTarget "TestApp-macOS" */;
 			buildPhases = (
-				1ACB3A091CB19838000200A8 /* ShellScript */,
 				1A9BB3431A1A9DA900B660A4 /* Sources */,
 				1A9BB3441A1A9DA900B660A4 /* Frameworks */,
 				1A9BB3451A1A9DA900B660A4 /* Resources */,
@@ -431,7 +417,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A9BB38E1A1A9E6400B660A4 /* Build configuration list for PBXNativeTarget "TestApp-iOS" */;
 			buildPhases = (
-				1A69B1EB1CB11E2E00671025 /* ShellScript */,
 				1A9BB36A1A1A9E6400B660A4 /* Sources */,
 				1A9BB36B1A1A9E6400B660A4 /* Frameworks */,
 				1A9BB36C1A1A9E6400B660A4 /* Resources */,
@@ -601,11 +586,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A33F59B1CCAF13300A87721 /* Localizable.strings in Resources */,
 				1A9FEBFB1CAC9A9D00303E2B /* Assets_ios.xcassets in Resources */,
 				1ADA6B581CB38FB000B39C33 /* LaunchScreen.storyboard in Resources */,
+				1A33F59B1CCAF13300A87721 /* Localizable.strings in Resources */,
 				1A9FEC111CAC9B1F00303E2B /* Main_ios.storyboard in Resources */,
-				1ACB12551DA2B9DC00E4AEEE /* Tool-macOS.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,35 +622,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1A69B1EB1CB11E2E00671025 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "Shared/Scripts/find-genstrings\n";
-		};
-		1ACB3A091CB19838000200A8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "Shared/Scripts/find-genstrings\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A9BB3431A1A9DA900B660A4 /* Sources */ = {

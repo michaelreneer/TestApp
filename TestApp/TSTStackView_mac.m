@@ -66,7 +66,7 @@ static void TSTStackViewInit(TSTStackView *self) {
 		_button1 = [[NSButton alloc] initWithFrame:NSZeroRect];
 		[_button1 addConstraint:[NSLayoutConstraint constraintWithItem:_button1 attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:30]];
 		[_button1 addConstraint:[NSLayoutConstraint constraintWithItem:_button1 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:100]];
-		[_button1 setTitle:@"11111"];
+		[_button1 setTitle:NSLocalizedString(@"11111", nil)];
 		[_button1 setTranslatesAutoresizingMaskIntoConstraints:NO];
 	}
 
@@ -78,7 +78,7 @@ static void TSTStackViewInit(TSTStackView *self) {
 		_button2 = [[NSButton alloc] initWithFrame:NSZeroRect];
 		[_button2 addConstraint:[NSLayoutConstraint constraintWithItem:_button2 attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:30]];
 		[_button2 addConstraint:[NSLayoutConstraint constraintWithItem:_button2 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:100]];
-		[_button2 setTitle:@"22222"];
+		[_button2 setTitle:NSLocalizedString(@"22222", nil)];
 		[_button2 setTranslatesAutoresizingMaskIntoConstraints:NO];
 	}
 
@@ -90,7 +90,7 @@ static void TSTStackViewInit(TSTStackView *self) {
 		_button3 = [[NSButton alloc] initWithFrame:NSZeroRect];
 		[_button3 addConstraint:[NSLayoutConstraint constraintWithItem:_button3 attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:30]];
 		[_button3 addConstraint:[NSLayoutConstraint constraintWithItem:_button3 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:100]];
-		[_button3 setTitle:@"33333"];
+		[_button3 setTitle:NSLocalizedString(@"33333", nil)];
 		[_button3 setTranslatesAutoresizingMaskIntoConstraints:NO];
 	}
 
@@ -102,7 +102,7 @@ static void TSTStackViewInit(TSTStackView *self) {
 		_button4 = [[NSButton alloc] initWithFrame:NSZeroRect];
 		[_button4 addConstraint:[NSLayoutConstraint constraintWithItem:_button4 attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:30]];
 		[_button4 addConstraint:[NSLayoutConstraint constraintWithItem:_button4 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:100]];
-		[_button4 setTitle:@"44444"];
+		[_button4 setTitle:NSLocalizedString(@"44444", nil)];
 		[_button4 setTranslatesAutoresizingMaskIntoConstraints:NO];
 	}
 
