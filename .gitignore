@@ -2,9 +2,5 @@
 .DS_Store
 .Trashes
 
-# Xcode - Build
-build/
-DerivedData/
-
-# Xcode - Settings
+# Xcode
 xcuserdata/
